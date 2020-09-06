@@ -1,0 +1,585 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+    <head>
+<meta property="twitter:account_id" content="4503599629893896" />
+                <meta name="keywords" content="trabajo, empleo, ofertas de trabajo, bolsa de trabajo, bolsa de empleo, ofertas de trabajo, ofertas de empleo, portal de empleo, trabajo online, trabajar, publicar ofertas de trabajo, find job, find a job, servicioempleo, servicio empleo, Ofertas de trabajo limpieza, trabajo dependienta, trabajo temporal, ofertas de trabajo conductor, ofertas empleo Madrid, ofrezco trabajo, trabajo camarero." />
+        <meta name="description" content="/search-results-jobs/?action=search&listing_type%5Bequal%5D=Job&keywords%5Ball_words%5D=&JobIndustry%5Bmulti_like%5D%5B%5D=&keywords%5Ball_words%5D=&Position%5Bmulti_like%5D%5B%5D=&City%5Blike%5D=&State%5Bmulti_like%5D%5B%5D=Zaragoza/favicon.icoServicio Empleo es la bolsa de empleo líder para encontrar trabajo, accede a todas las ofertas del mercado y recíbelas en tu email de forma totalmente gratuita." />
+        <meta http-equiv="Content-Type" content="text/html charset=utf-8"/>
+        <title>Search Results - Miles de ofertas de trabajo en Servicioempleo - tu bolsa de trabajo online </title>
+        <link rel="StyleSheet" type="text/css" href="http://www.servicioempleo.com/templates/_system/main/images/css/form.css" />
+        <link rel="StyleSheet" type="text/css" href="http://www.servicioempleo.com/templates/EnhancedView/main/images/design.css" />
+        <link rel="StyleSheet" type="text/css" href="http://www.servicioempleo.com/system/ext/jquery/css/jquery-ui.css"  />
+
+        <link rel="alternate" type="application/rss+xml" title="RSS2.0" href="http://www.servicioempleo.com/rss/" />
+
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="http://www.servicioempleo.com/system/ext/jquery/jquery.validate.min.js"></script>
+                <script type="text/javascript" src="http://www.servicioempleo.com/system/ext/jquery/datepicker/i18n/jquery.ui.datepicker-es.js" ></script>
+    
+        
+        <style type="text/css">
+            *html img,*html.png{azimuth:expression(this.pngSet? this.pngSet=true:(this.nodeName == "IMG" ?(this.src.toLowerCase().indexOf('.png')>-1 ?(this.runtimeStyle.backgroundImage = "none",this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+this.src+"',sizingMethod='image')",this.src = "http://www.servicioempleo.com/templates/EnhancedView/main/images/blank.gif"):''):(this.currentStyle.backgroundImage.toLowerCase().indexOf('.png')>-1) ?(this.origBg =(this.origBg) ? this.origBg:this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+this.origBg+"',sizingMethod='crop')",this.runtimeStyle.backgroundImage = "none"):''),this.pngSet=true);}
+        </style>
+        <script language="javascript" type="text/javascript">
+            $.ui.dialog.prototype.options.bgiframe = true;
+
+            function popUpWindow(url, widthWin, heightWin, title, parentReload, userLoggedIn) {
+                reloadPage = false;
+                $("#messageBox").dialog('destroy').html('<img style="vertical-align: middle;" src="http://www.servicioempleo.com/system/ext/jquery/progbar.gif" alt="Por favor, espere ..." /> Por favor, espere ...');
+                $("#messageBox").dialog({
+                    width: widthWin,
+                    height: heightWin,
+                    modal: true,
+                    title: title,
+                    close: function(event, ui) {
+                        if (parentReload == true && !userLoggedIn && reloadPage == true) {
+                            parent.document.location.reload();
+                        }
+                    }
+                }).dialog('open');
+
+                $.get(url, function(data) {
+                    $("#messageBox").html(data);
+                });
+
+                return false;
+            }
+        </script>
+    
+    
+
+        <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-27947433-1']);
+            _gaq.push(['_setDomainName', 'servicioempleo.com']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+    
+
+
+
+</head>
+<body>
+    <div id="messageBox"></div>
+    <div style="height: 1px;"><img src="https://sb.scorecardresearch.com/p?c1=8&c2=16922641" width="1" height="1" /></div>
+<!--   <script type="text/javascript" language="javascript">
+    function createCORSRequest(method, url) {
+        var xhr = new XMLHttpRequest();
+        xhr.open(method, url);
+        xhr.withCredentials = true;
+        if ("withCredentials" in xhr) {
+            // XHR for Chrome/Firefox/Opera/Safari.
+            xhr.open(method, url, true);
+        } else if (typeof XDomainRequest != "undefined") {
+            // XDomainRequest for IE.
+            xhr = new XDomainRequest();
+            xhr.open(method, url);
+        } else {
+            // CORS not supported.
+            xhr = null;
+        }
+        return xhr;
+    }
+    function getResponse(text) {
+        return text.match('<span>(.*)?</span>')[1];
+    }
+    // Make the actual CORS request.
+    function makeCorsRequest() {
+        // All HTML5 Rocks properties support CORS.
+        var url = 'https://r.retmk.com/gc_se.php';
+        var xhr = createCORSRequest('GET', url);
+        xhr.onload = function() {
+            var text = xhr.responseText;
+            var resp = getResponse(text);
+            if (resp == 'FALSE') { /* set ck*/
+
+    
+                src = ''
+                img = document.createElement('img');
+
+                img.src = src;
+            }
+        };
+        xhr.send();
+    }
+
+    makeCorsRequest();</script>
+
+-->
+            <div id="cookies_pri" class="ui-widget-overlay" style="height: 35px;float:left;">
+            <div style="width:750px;align:center;margin:0 auto;">
+                En nuestra página utilizamos cookies propias y de terceros para mejorar nuestros servicios y ofrecer contenidos y publicidad de interés.  
+                Si continúa navegando, sin modificar la configuración de su navegador, consideramos que acepta nuestra <a href="/cookies-policy/" style="color:black;" target="_blank">política de cookies</a>.
+            </div>
+        </div>
+        <div id="mainDiv">
+                    <div id="logoBackInner">
+                <div class="png"></div>
+                <a href="http://www.servicioempleo.com/"><img width="330" height="60" src="http://www.servicioempleo.com/templates/EnhancedView/main/images/logo.png" style="border:none;" alt="ServicioEmpleo tu portal de empleo" title="ServicioEmpleo tu portal de empleo" /></a>
+            </div>
+        <div id="headerUserMenuInner" style="margin-top:10px;">        <div id="header_UserMenu">
+            <div id="userMenu" style="width:0px;">
+                            
+                            <!--<a href="http://www.servicioempleo.com/listing-feeds/?feedId=10" id="mainRss">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RSS</a>
+                <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fserviempleo&amp;send=false&amp;layout=button_count&amp;width=120&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px;" allowTransparency="true"></iframe>
+                <a href="https://twitter.com/Servicio_Empleo" class="twitter-follow-button" data-show-count="false" data-lang="es" data-show-screen-name="false">Síguenos en Twitter</a>-->
+            <script>/*!function(d, s, id) {
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (!d.getElementById(id)) {
+             js = d.createElement(s);
+             js.id = id;
+             js.src = "//platform.twitter.com/widgets.js";
+             fjs.parentNode.insertBefore(js, fjs);
+             }
+             }(document, "script", "twitter-wjs");*/</script>
+                                                            </div>
+                    
+                       <!--<div id="search_div" style="padding-top:5px;float:right;">
+                            <form name="search_box" id="search_box" >
+                                <div id="sb_buscador">
+                                    <div id="sb_caja"><input style="width:265px;padding-left:5px;" onkeypress="search_se2(event);" name="Buscar" type="text" class="sb_caja_int" id="sb_input" placeholder="Buscar en internet..."></div>
+                                    <div id="sb_buscar"><a onclick="search_se();" style="cursor:pointer;"><img src="/img/search/boton.png" width="55" height="23" alt="Buscar"></a></div>
+                                </div>
+                            </form>
+                        </div>-->
+                    </div>
+                                                <div id ="main_register_box" style="width:95%;">
+                                                            <div style="float:left;padding-top:15px;width: 130px;height:50px; padding-left: 215px;font-family: Georgia; font-style: italic;"><img src="/img/main/login_key.png"/>
+                        Accede a tu cuenta: </div>
+                        <form action="http://www.servicioempleo.com/login/" method="post" id="loginF" >
+                            <input type="hidden" name="return_url" value="" />
+                            <input type="hidden" name="action" value="login" />
+                            
+                        <input type="text" class="" name="username" placeholder="Email" style="float:left;margin-left:10px;width:122px;background: url(/img/main/login_input.png) 0 0 no-repeat;"/>
+                        <input type="password" class="" name="password" placeholder="Contraseña"  style="float:left;margin-left:10px;width:122px;background: url(/img/main/login_input.png) 0 0 no-repeat;"/>
+                        <input type="submit" value="Entrar" class="button" width="70"/>
+
+                    </form>
+
+                    <div style="float:right;width: 300px;"><a href="http://www.servicioempleo.com/password-recovery/">¿Olvidaste la contraseña?</a></div>
+
+                                                                            </div>
+                    
+                </div>
+                                                                                        <div class="clr"></div>
+                        <div id="topMenu"><ul>
+	<!--<li><a href="http://www.servicioempleo.com/">Inicio</a></li>-->
+	<li><a href="http://www.servicioempleo.com/mi-cuenta/">Mi cuenta</a></li>
+		    <li><a target="_blank" href="http://cursos.servicioempleo.com" >Formación</a></li>
+	    <li><a href="http://www.servicioempleo.com/find-jobs/" >Búsqueda Avanzada</a></li>
+	    <li><a href="http://www.servicioempleo.com/guia-trabajo/" >Guía del Trabajo</a></li>
+	    <li><a href="http://www.servicioempleo.com/blog/" target="_blank">Blog</a></li>
+	    
+		<li><a href="http://www.servicioempleo.com/contact/" >Contactar</a></li>
+</ul></div>
+                                                        <div id="search_results_box" style="float:left;width:1000px;height:150px;background-color:#CFDBD7;">
+                                <div id="header_search" style="background-color:#7E7B70;height:19px;padding:5px 0 0 18px;color:white;font-weight:bold;">Encuentra aquí tu trabajo</div>
+
+                                <form action="http://www.servicioempleo.com/search-results-jobs/">
+                                    <input type="hidden" name="action" value="search" />
+                                    <input type="hidden" name="listing_type[equal]" value="Job" />
+                                    <div class="box_search" style="width:300px;float:left;height:65px;padding-top:10px;padding-left:50px;">
+                                        <div class="quickSearchField_box" style="float:left;width:175px;text-align:center;">
+                                            <strong>Por Palabra</strong><br/>
+                                            <input type="text" id="keywords" name="keywords[all_words]" class="searchText" value="" style="width:230px;margin-top:20px;height:25px;background-color:#FBFBFB;">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="box_search" style="width:300px;float:left;height:65px;padding-top:10px;">
+                                        <div class="quickSearchField_box" style="float:left;width:230px;text-align:center;">
+                                            <strong>Categoria</strong><br/>
+                                            <select class="searchList" name="JobIndustry[multi_like][]" style="width:230px;margin-top:20px;height:30px;background-color:#FBFBFB;">
+                                                <option value="">- Categoría</option>
+                                                <option value="Acción Social">Acción Social</option>
+                                                <option value="Agricultura Montes Pesca Minería Siderurgia">Agricultura Montes Pesca Minería Siderurgia</option>
+                                                <option value="Arte Cultura Sociedad">Arte Cultura Sociedad</option>
+                                                <option value="Atención Al Cliente">Atención Al Cliente</option>
+                                                <option value="Bioquimica Farmacia Experimental">Bioquimica Farmacia Experimental</option>
+                                                <option value="Calidad">Calidad</option>
+                                                <option value="Comercial ventas">Comercial ventas</option>
+                                                <option value="Compras">Compras</option>
+                                                <option value="Comunicación Medios Periodismo">Comunicación Medios Periodismo</option>
+                                                <option value="Construcción Arquitectura Obra y Promoción">Construcción Arquitectura Obra y Promoción</option>
+                                                <option value="Consultoría">Consultoría</option>
+                                                <option value="Dirección Gerencia">Dirección Gerencia</option>
+                                                <option value="Diseño Creatividad">Diseño Creatividad</option>
+                                                <option value="Editorial Documentación Traducción">Editorial Documentación Traducción</option>
+                                                <option value="Educación Formación">Educación Formación</option>
+                                                <option value="Finanzas Contabilidad Auditoría">Finanzas Contabilidad Auditoría</option>
+                                                <option value="Hostelería Turismo">Hostelería Turismo</option>
+                                                <option value="I+D">I+D</option>
+                                                <option value="Informática">Informática</option>
+                                                <option value="Ingeniería Fabricación Producción">Ingeniería Fabricación Producción</option>
+                                                <option value="Jurídico Fiscal">Jurídico Fiscal</option>
+                                                <option value="Limpieza y Servicios Urbanos">Limpieza y Servicios Urbanos</option>
+                                                <option value="Logística Planificación Transporte">Logística Planificación Transporte</option>
+                                                <option value="Mantenimiento Instalación Reparación">Mantenimiento Instalación Reparación</option>
+                                                <option value="Marketing Publicidad">Marketing Publicidad</option>
+                                                <option value="Medio Ambiente">Medio Ambiente</option>
+                                                <option value="Oficios">Oficios</option>
+                                                <option value="Otros">Otros</option>
+                                                <option value="Prevención de Riesgos Laborales">Prevención de Riesgos Laborales</option>
+                                                <option value="Recursos Humanos">Recursos Humanos</option>
+                                                <option value="Sanidad y Salud">Sanidad y Salud</option>
+                                                <option value="Secretarias Administrativos Personal de Apoyo">Secretarias Administrativos Personal de Apoyo</option>
+                                                <option value="Seguridad Defensa">Seguridad Defensa</option>
+                                                <option value="Telecomunicaciones">Telecomunicaciones</option>
+                                            </select>
+                                        </div>
+
+                                    </div>
+                                    <div class="box_search" style="width:300px;float:left;height:65px;padding-top:10px;">
+                                        <div class="quickSearchField_box" style="float:left;width:175px;text-align:center;">
+                                            <strong>Ciudad</strong>
+                                            <br/><select class="searchList" height="30" name="State[multi_like][]" style="width:230px;margin-top:20px;height:30px;background-color:#FBFBFB;">
+                                                <option value="">- Provincia</option>
+                                                <option value="A Coruña">A Coruña</option>
+                                                <option value="Alava">Alava</option>
+                                                <option value="Albacete">Albacete</option>
+                                                <option value="Alicante">Alicante</option>
+                                                <option value="Almería">Almería</option>
+                                                <option value="Asturias">Asturias</option>
+                                                <option value="Avila">Avila</option>
+                                                <option value="Badajoz">Badajoz</option>
+                                                <option value="Barcelona">Barcelona</option>
+                                                <option value="Burgos">Burgos</option>
+                                                <option value="Cantabria">Cantabria</option>
+                                                <option value="Castellón">Castellón</option>
+                                                <option value="Ceuta">Ceuta</option>
+                                                <option value="Ciudad Real">Ciudad Real</option>
+                                                <option value="Cuenca">Cuenca</option>
+                                                <option value="Cáceres">Cáceres</option>
+                                                <option value="Cádiz">Cádiz</option>
+                                                <option value="Córdoba">Córdoba</option>
+                                                <option value="Girona">Girona</option>
+                                                <option value="Granada">Granada</option>
+                                                <option value="Guadalajara">Guadalajara</option>
+                                                <option value="Guipúzcoa">Guipúzcoa</option>
+                                                <option value="Huelva">Huelva</option>
+                                                <option value="Huesca">Huesca</option>
+                                                <option value="Islas Baleares">Islas Baleares</option>
+                                                <option value="Jaén">Jaén</option>
+                                                <option value="La Rioja">La Rioja</option>
+                                                <option value="Las Palmas">Las Palmas</option>
+                                                <option value="León">León</option>
+                                                <option value="Lleida">Lleida</option>
+                                                <option value="Lugo">Lugo</option>
+                                                <option value="Madrid">Madrid</option>
+                                                <option value="Melilla">Melilla</option>
+                                                <option value="Murcia">Murcia</option>
+                                                <option value="Málaga">Málaga</option>
+                                                <option value="Navarra">Navarra</option>
+                                                <option value="Orense">Orense</option>
+                                                <option value="Palencia">Palencia</option>
+                                                <option value="Pontevedra">Pontevedra</option>
+                                                <option value="Salamanca">Salamanca</option>
+                                                <option value="Santa Cruz de Tenerife">Santa Cruz de Tenerife</option>
+                                                <option value="Segovia">Segovia</option>
+                                                <option value="Sevilla">Sevilla</option>
+                                                <option value="Soria">Soria</option>
+                                                <option value="Tarragona">Tarragona</option>
+                                                <option value="Teruel">Teruel</option>
+                                                <option value="Toledo">Toledo</option>
+                                                <option value="Valencia">Valencia</option>
+                                                <option value="Valladolid">Valladolid</option>
+                                                <option value="Vizcaya">Vizcaya</option>
+                                                <option value="Zamora">Zamora</option>
+                                                <option value="Zaragoza">Zaragoza</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="quickSearchLinks" style="width:850px;float:left;padding-left:30px;">
+                                        <a href="/find-jobs/" style="float:left;margin:8px 0 0 20px;">Busqueda Avanzada</a>
+                                        <input style="float: right;" type="submit" id="btn-search" class="searchButton" value="Buscar"/>
+                                    </div>
+                                </form>
+                            </div>
+                            
+                                                <div class="indexDiv"	 id="noPad">
+
+        
+                    
+                    
+                    <script language="JavaScript" type="text/javascript" src="http://www.servicioempleo.com/system/ext/jquery/jquery-ui.js"></script>
+<script language="JavaScript" type="text/javascript" src="http://www.servicioempleo.com/system/ext/jquery/jquery.bgiframe.js"></script>
+
+
+<script type="text/javascript" language="JavaScript">
+    
+        $.ui.dialog.prototype.options.bgiframe = true;
+        function submitForm(id) {
+            lpp = document.getElementById("listings_per_page" + id);
+            location.href = '?searchId=1599428429.3225&action=search&page=1&listings_per_page=' + lpp.value;
+        }
+        function SaveAd(noteId, url) {
+            $.get(url, function(data) {
+                $("#" + noteId).html(data);
+            });
+        }
+
+    
+</script>
+<script type="text/javascript" language="JavaScript">
+    $(document).ready(function() {
+    var curso_index = 1;
+        });
+</script>
+        <div class="results">
+
+        <div id="topResults">
+            <div class="headerBgBlock">
+                                <div class="Results">Trabajos Encontrados </div><span></span>
+                        <!-- TOP QUICK LINKS -->
+                            <div class="topResultsLinks">
+                    <ul>
+                        <li class="modifySearchIco"><a href="http://www.servicioempleo.com/find-jobs/?searchId=1599428429.3225"> Modificar busqueda</a></li>
+                                                                                                                                <li class="savedIco">
+                            <a onclick="popUpWindow('http://www.servicioempleo.com/saved-listings/?listing_type_id=job', 350, 300, 'Guardadas'); return false;" href="http://www.servicioempleo.com/saved-listings/">Guardadas</a>
+                                                    </li>
+                        <li class="savedIco">
+                            <a onclick="popUpWindow('http://www.servicioempleo.com/saved-searches/', 350, 300, 'Mis busquedas'); return false;" href="http://www.servicioempleo.com/saved-searches/">Mis busquedas</a>
+                                                    </li>
+                    </ul>
+                </div>
+                        <!-- END TOP QUICK LINKS -->
+        </div>
+
+        <div id="adSpace" style="float:left;width:768px;margin:45px 0 0 10px;height:50px;"><div class="banner">
+			<a href="http://www.servicioempleo.com/go-link/?bannerId=128" target="_blank">
+			<script type="text/javascript"><!--
+google_ad_client = "ca-pub-4135017293287495";
+/* BuscadorResults72890 */
+google_ad_slot = "8316358539";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+		</a>
+	</div>
+</div> 
+        <!-- TOP RESULTS - PER PAGE - PAGE NAVIGATION -->
+        <div class="topNavBarLeft"></div>
+
+
+        <div class="topNavBar">
+            <div class="numberResults">
+                                Resultados: 0 ofertas                            </div>
+            <div class="numberPerPage">
+                <form id="listings_per_page_form" method="get" action="" class="tableSRNavPerPage">
+                    Numero de trabajos por página:
+                    <select id="listings_per_page1" name="listings_per_page1" onchange="submitForm(1); return false;">
+                        <option value="10" selected="selected">10</option>
+                        <option value="20" >20</option>
+                        <option value="50" >50</option>
+                        <option value="100" >100</option>
+                    </select>
+                </form>
+            </div>
+            <div class="pageNavigation">
+                <span class="prevBtn"><img src="http://www.servicioempleo.com/templates/EnhancedView/main/images/prev_btn.png" alt="Anterior"/>
+            <a>Anterior</a></span>
+        <span class="navigationItems">
+            <strong>1</strong>
+</span>
+<span class="nextBtn"><a>Siguiente</a>    <img src="http://www.servicioempleo.com/templates/EnhancedView/main/images/next_btn.png" alt="Siguiente"/></span>
+</div>
+</div>
+<div class="topNavBarRight"></div>
+<!-- END TOP RESULTS - PER PAGE - PAGE NAVIGATION -->
+</div>
+
+<!-- START REFINE SEARCH -->
+    <div id="refineResults">
+        <div id="blockBg">
+            <div id="blockTop"></div>
+            <div id="blockInner">
+                <table cellpadding="0" cellspacing="0" id="currentSearch">
+                    <thead>
+                        <tr>
+                            <th class="tableLeft"> </th>
+                            <th>&nbsp;Búsqueda Actual:</th>
+                            <th class="tableRight"> </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="3">
+                                                                                                <div class="currentSearch"><strong>Provincia</strong></div>
+                                                                                                                                                        <span class="curSearchItem"><a href="?searchId=1599428429.3225&amp;action=undo&amp;param=State&amp;type=multi_like&amp;value=Zaragoza%2Ffavicon.ico&amp;show_brief_or_detailed=detailed">(quitar)</a> Zaragoza/favicon.ico</span><br/>
+                                                                                                                                                                    <br/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br/>
+            <table cellpadding="0" cellspacing="0" width="100%" id="refineResults">
+                <thead>
+                    <tr>
+                        <th class="tableLeft"> </th>
+                        <th>&nbsp;Filtrar Resultados:</th>
+                        <th class="tableRight"> </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="3">
+                                                    <br/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!--<div id="courses_category" style="padding-top:auto;float:left;padding-left:10px;">
+    <h3 style="font-size:1.2em;padding-bottom:10px">Formación Recomendada</h3>
+<span style="padding-top:15px;float:left;" > <a target="_blank" href=""></a></span>
+<span style="padding-top:10px;float:right;padding-right:10px;" ><a target="_blank" style="text-decoration:none;" href="http://formacion.servicioempleo.com/home/category/">(Ver todos)</a></span>
+
+</div>-->
+</div>
+<!-- END REFINE SEARCH -->
+
+<!-- LISTINGS TABLE -->
+<div id="listingsResults">
+        <center>Lo sentimos pero no hay resultados para tu búsqueda</center>
+</div>
+<!-- END LISTINGS TABLE -->
+
+
+<!-- BOTTOM RESULTS - PER PAGE - PAGE NAVIGATION -->
+<div id="endResults">
+    <div class="topResultsLinks">
+        <div class="topNavBarLeft"></div>
+        <div class="topNavBar">
+            <div class="numberResults">
+                                Resultados: 0 ofertas                            </div>
+            <div class="numberPerPage">
+                <form id="listings_per_page_form" method="get" action="" class="tableSRNavPerPage">
+                    Numero de trabajos por página:
+                    <select id="listings_per_page2" name="listings_per_page2" onchange="submitForm(2); return false;">
+                        <option value="10" selected="selected">10</option>
+                        <option value="20" >20</option>
+                        <option value="50" >50</option>
+                        <option value="100" >100</option>
+                    </select>
+                </form>
+            </div>
+            <div class="pageNavigation">
+                <span class="prevBtn"><img src="http://www.servicioempleo.com/templates/EnhancedView/main/images/prev_btn.png" alt=""/>
+            <a>Anterior</a></span>
+        <span class="navigationItems">
+            <strong>1</strong>
+</span>
+<span class="nextBtn"><a>Siguiente</a>    <img src="http://www.servicioempleo.com/templates/EnhancedView/main/images/next_btn.png" alt=""/></span>
+</div>
+</div>
+<div class="topNavBarRight"></div>
+</div>
+</div>
+<!-- END BOTTOM RESULTS - PER PAGE - PAGE NAVIGATION -->
+</div>
+
+
+    <script>
+        $(".refine_button").click(function() {
+            var butt = $(this);
+            $(this).next(".refine_block").slideToggle("normal", function() {
+                if ($(this).css("display") == "block") {
+                    butt.children(".refine_icon").html("[-]");
+                } else {
+                    butt.children(".refine_icon").html("[+]");
+                }
+            });
+        });
+        $(".block_values_button").click(function() {
+            var butt = $(this);
+            $(this).prev(".block_values").slideToggle("normal", function() {
+                if ($(this).css("display") == "block") {
+                    butt.html(" &nbsp; &#171; less");
+                } else {
+                    butt.html(" &nbsp; &#187; more");
+                }
+            });
+        });
+    </script>
+
+
+                                </div>
+                                            <div id="grayBgBanner"></div>
+                                
+<div class="clr"></div>
+<div id="footer">
+
+            <div style="float:left;height: 65px; width: 220px;height: 90px;margin: 35px 0 42px 0px; margin-left:110px;padding-left: 10px;background: url('/img/main/footer_line_white.png') 0 0 no-repeat; background-position: left;">
+            <span class="footer_title" >Servicioempleo</span>
+            <ul>
+                <li><a href="http://www.servicioempleo.com/nosotros/" >Sobre nosotros</a></li>
+                                        <li><a href="http://www.servicioempleo.com/terms-of-use/" >Politica de Privacidad</a></li>
+                    <li><a href="http://www.servicioempleo.com/cookies-policy/" >Aviso Legal</a></li>
+
+                                <li style="color: white;font-size: 0.8em;text-decoration: none;">
+                    <form id="langSwitcherForm" method="get" action="">
+                        <label style="float:left;" for="lang">Cambiar Idioma&nbsp;&nbsp;</label><br />
+                        <select style="background-color:#DAD6C3;color:black;margin-top:5px;width:100px;border-radius: 10px;" name="lang" onchange="location.href = 'http://www.servicioempleo.com/search-results-jobs/?lang=' + this.value + '&amp;action=search&amp;listing_type%5Bequal%5D=Job&amp;keywords%5Ball_words%5D=&amp;JobIndustry%5Bmulti_like%5D%5B%5D=&amp;keywords%5Ball_words%5D=&amp;Position%5Bmulti_like%5D%5B%5D=&amp;City%5Blike%5D=&amp;State%5Bmulti_like%5D%5B%5D=Zaragoza/favicon.ico'">
+                                                            <option value="en">English</option>
+                                                            <option value="es" selected="selected">Español</option>
+                                                    </select>
+                    </form>
+                </li>
+            </ul>
+        </div> 
+        <div style="float:left;height: 65px; width: 215px;padding: 35px 0 65px 0px; padding-left: 10px;background: url('/img/main/footer_line_white.png') 0 0 no-repeat; background-position: left;">
+            <span class="footer_title" >Mapa del sitio</span>
+            <ul>
+                <li><a href="http://www.servicioempleo.com/browse-by-company/" >Empresas</a></li>
+                <li><a href="http://www.servicioempleo.com/registration/?user_group_id=Candidatos">Regístrate</a></li>
+                <li><a href="http://www.servicioempleo.com/contact/">Contáctanos</a></li>
+                <li><a href="http://www.servicioempleo.com/guia-trabajo/">Guía del trabajo</a></li>
+            </ul>
+        </div>
+
+        <div style="float:left;height: 65px; width: 200px;padding: 35px 0 65px 0px; padding-left:10px;background: url('/img/main/footer_line_white.png') 0 0 no-repeat; background-position: left;">
+            <span class="footer_title" >Links</span>
+            <ul>
+                <li><a href="http://www.servicioempleo.com/blog/" target="_blank" >Blog</a></li>
+                <li><a href="http://formacion.servicioempleo.com/" target="_blank">Formación</a></li>
+                <li><a href="http://www.infoimpiego.it/" target="_blank">Infoimpiego.it</a></li>
+                <li><a href="http://www.promoahorro.com/registration?ref=se" target="_blank">Promociones</a></li>
+            </ul> 
+        </div> 
+
+        <div style="float:left;height: 65px; width: 205px;padding: 35px 0 65px 0px; padding-left: 10px;background: url('/img/main/footer_line_white.png') 0 0 no-repeat; background-position: left;">
+            <span class="footer_title" >Síguenos</span>
+            <ul style="padding-top:10px;">
+                <a href="https://www.facebook.com/serviempleo" target="_blank"><img src="/img/main/menu_fb.png" height="24" width="24"/></a>
+                <a href="http://www.twitter.com/Servicio_Empleo" target="_blank"><img src="/img/main/menu_tw.png" height="24" width="24"/></a>
+                <a href="https://plus.google.com/111391368996318359825" rel="publisher" target="_blank"><img src="/img/main/google-plus.png" height="28" width="28"/></a>
+                <a href="http://www.linkedin.com/company/2862220" target="_blank"><img src="/img/main/linkedin.jpg" height="26" width="26"/></a>
+                <a href="http://www.servicioempleo.com/listing-feeds/?feedId=10" target="_blank"><img src="/img/main/menu_rss.png" height="26" width="26"/></a>
+
+
+            </ul>
+        </div>
+
+        <div style="float:left;height: 25px; width: 992px;padding: 5px 0 0 ;text-align: center;">
+        <span style="color: #DAD6C3;">Copyright &copy; 2013 Servicioempleo. Todos los derechos reservados.</span>
+    </div>
+</div>        </body>
+    </html>
+                                
